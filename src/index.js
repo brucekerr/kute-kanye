@@ -16,12 +16,10 @@ fetchQuote()
         });
 
         typewriter.typeString(quote)
-            .pauseFor(2500)
             .start()
-        typewriter.typeString("<br>")
-            .start()
-        typewriter.typeString("\t - Kayne West")
+        typewriter.typeString("<br> - Kayne West")
             .start()
             .pauseFor(2500)
-        //.deleteAll()
+            .deleteAll()
+        typewriter.typeString("Check back soon for more Kayne 🤝")
     });
