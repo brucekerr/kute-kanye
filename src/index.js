@@ -8,7 +8,7 @@ async function fetchQuote() {
 }
 fetchQuote()
     .then(quote => {
-        var app = document.getElementById('content');
+        var app = document.getElementById('body');
 
         var typewriter = new Typewriter(app, {
             loop: false
