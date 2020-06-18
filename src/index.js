@@ -11,7 +11,8 @@ fetchQuote()
         var app = document.getElementById('body');
 
         var typewriter = new Typewriter(app, {
-            loop: false
+            loop: false,
+            cursor: "",
         });
 
         typewriter.typeString(quote)
