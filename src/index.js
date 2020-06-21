@@ -17,9 +17,9 @@ fetchQuote()
 
         typewriter.typeString(quote)
             .start()
-        typewriter.typeString("<br> - Kayne West")
+        typewriter.typeString("<br> - Kanye West")
             .start()
             .pauseFor(2500)
             .deleteAll()
-        typewriter.typeString("Check back soon for more Kayne 🤝")
+        typewriter.typeString("Check back soon for more Kanye 🤝")
     });
